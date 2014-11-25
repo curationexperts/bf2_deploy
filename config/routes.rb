@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount Blacklight::Folders::Engine, at: "blacklight"
   root :to => "catalog#index"
   blacklight_for :catalog
   Blacklight::Marc.add_routes(self)
