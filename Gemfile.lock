@@ -55,6 +55,11 @@ GEM
     acts_as_list (0.5.0)
       activerecord (>= 3.0)
     arel (5.0.1.20140414130214)
+    bcrypt (3.1.9)
+    blacklight-marc (5.4.0)
+      blacklight (>= 5.4.0.rc1, < 6.0)
+      marc (>= 0.4.3, < 1.1)
+      rails
     bootstrap-sass (3.3.1.0)
       sass (~> 3.2)
     builder (3.2.2)
@@ -79,6 +84,16 @@ GEM
     colorize (0.7.3)
     deprecation (0.1.0)
       activesupport
+    devise (3.4.1)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      responders
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
+    devise-guests (0.3.3)
+      devise
+    ensure_valid_encoding (0.5.3)
     erubis (2.7.0)
     execjs (2.2.2)
     hike (1.2.3)
@@ -96,6 +111,10 @@ GEM
     libv8 (3.16.14.7)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    marc (0.8.2)
+      ensure_valid_encoding
+      scrub_rb (>= 1.0.1, < 2)
+      unf
     mime-types (2.4.3)
     mini_portile (0.6.1)
     minitest (5.4.3)
@@ -106,6 +125,7 @@ GEM
     nokogiri (1.6.4.1)
       mini_portile (~> 0.6.0)
     nprogress-rails (0.1.6.3)
+    orm_adapter (0.5.0)
     pg (0.17.1)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -129,6 +149,8 @@ GEM
     rdoc (4.1.2)
       json (~> 1.4)
     ref (1.0.5)
+    responders (1.1.2)
+      railties (>= 3.2, < 4.2)
     rsolr (1.0.10)
       builder (>= 2.1.2)
     sass (3.2.19)
@@ -137,6 +159,7 @@ GEM
       sass (~> 3.2.2)
       sprockets (~> 2.8, < 3.0)
       sprockets-rails (~> 2.0)
+    scrub_rb (1.0.1)
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
@@ -170,17 +193,25 @@ GEM
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.6)
+    warden (1.2.3)
+      rack (>= 1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   blacklight!
+  blacklight-marc (~> 5.0)
   blacklight_folders!
   capistrano
   capistrano-bundler
   capistrano-rails
   coffee-rails (~> 4.0.0)
+  devise
+  devise-guests (~> 0.3)
   jbuilder (~> 2.0)
   jquery-rails
   nprogress-rails
