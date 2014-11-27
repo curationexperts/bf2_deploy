@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/curationexperts/blacklight_folders.git
-  revision: d4c340a2c14004b5009e15b959d083c537c05719
+  revision: a87a1f2f4bf09d6c423e7b866630ba9c192e862a
   branch: master
   specs:
     blacklight_folders (0.0.1)
@@ -122,7 +122,7 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
-    nokogiri (1.6.4.1)
+    nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
     nprogress-rails (0.1.6.3)
     orm_adapter (0.5.0)
