@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/curationexperts/blacklight_folders.git
-  revision: 02676e399d5406919f5a0564a69fa5d3e22bc931
+  revision: c69b4a34d5250b757716b5a3b25cb30524ef2edc
   branch: master
   specs:
     blacklight_folders (0.0.1)
@@ -147,7 +147,7 @@ GEM
       activesupport (= 4.1.7)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.4.1)
+    rake (10.4.2)
     rdoc (4.1.2)
       json (~> 1.4)
     ref (1.0.5)
