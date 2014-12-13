@@ -1,21 +1,21 @@
 GIT
   remote: git://github.com/curationexperts/blacklight_folders.git
-  revision: c69b4a34d5250b757716b5a3b25cb30524ef2edc
+  revision: 9c69a0c0a30f90271fc4a7227cebf87a3fb82cd6
   branch: master
   specs:
     blacklight_folders (0.0.1)
       acts_as_list (>= 0.4.0)
-      blacklight (>= 5.7.1, < 6)
+      blacklight (>= 5.8.0, < 6)
       cancancan (~> 1.9)
       rails (>= 4.0.1, < 5)
       select2-rails (~> 3.5.9.1)
 
 GIT
   remote: git://github.com/projectblacklight/blacklight.git
-  revision: c0d359edd28a279b17c684ddf467513142c1c46a
+  revision: d9afdef75f458bcf9997ff1664b150bd0897e1ba
   branch: master
   specs:
-    blacklight (5.7.2)
+    blacklight (5.8.0)
       bootstrap-sass (~> 3.2)
       deprecation
       kaminari (~> 0.13)
@@ -64,8 +64,8 @@ GEM
       sass (~> 3.2)
     builder (3.2.2)
     cancancan (1.9.2)
-    capistrano (3.3.3)
-      capistrano-stats (~> 1.0.3)
+    capistrano (3.3.5)
+      capistrano-stats (~> 1.1.0)
       i18n
       rake (>= 10.0.0)
       sshkit (~> 1.3)
@@ -75,7 +75,7 @@ GEM
     capistrano-rails (1.1.2)
       capistrano (~> 3.1)
       capistrano-bundler (~> 1.1)
-    capistrano-stats (1.0.3)
+    capistrano-stats (1.1.1)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -83,7 +83,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
-    colorize (0.7.3)
+    colorize (0.7.4)
     deprecation (0.1.0)
       activesupport
     devise (3.4.1)
@@ -119,7 +119,7 @@ GEM
       unf
     mime-types (2.4.3)
     mini_portile (0.6.1)
-    minitest (5.4.3)
+    minitest (5.5.0)
     multi_json (1.10.1)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -148,7 +148,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
-    rdoc (4.1.2)
+    rdoc (4.2.0)
       json (~> 1.4)
     ref (1.0.5)
     responders (1.1.2)
@@ -188,11 +188,11 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
-    turbolinks (2.5.2)
+    turbolinks (2.5.3)
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (2.5.3)
+    uglifier (2.6.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     unf (0.1.4)
