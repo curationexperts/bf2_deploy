@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/curationexperts/blacklight_folders.git
-  revision: 53213c4361269e79650253ad805f5787afde0952
+  revision: ac92cd62898e1fcd24b903015be15ce1c74e4f05
   branch: master
   specs:
     blacklight_folders (0.0.1)
@@ -12,10 +12,10 @@ GIT
 
 GIT
   remote: git://github.com/projectblacklight/blacklight.git
-  revision: 954673c87729850f6d6be93dc1ec1ed624479721
+  revision: 687defc1ef6d482b8b1932dd05367c83425df2e0
   branch: master
   specs:
-    blacklight (5.8.0)
+    blacklight (5.8.1)
       bootstrap-sass (~> 3.2)
       deprecation
       kaminari (~> 0.13)
@@ -83,7 +83,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
-    colorize (0.7.4)
+    colorize (0.7.5)
     deprecation (0.1.0)
       activesupport
     devise (3.4.1)
