@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/curationexperts/blacklight_folders.git
-  revision: 8ba3a81bbe2de023dea4a22ccc1bb89e1fdad6f4
+  revision: 53213c4361269e79650253ad805f5787afde0952
   branch: master
   specs:
     blacklight_folders (0.0.1)
@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: git://github.com/projectblacklight/blacklight.git
-  revision: 3efe998ef879c78d524e89f59a148f6d28f4beda
+  revision: 954673c87729850f6d6be93dc1ec1ed624479721
   branch: master
   specs:
     blacklight (5.8.0)
