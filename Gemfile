@@ -26,6 +26,8 @@ group :development do
 gem 'capistrano'
 gem 'capistrano-rails'
 gem 'capistrano-bundler'
+# sshkit/colorize issue requires older version of colorize
+gem 'colorize', '0.7.2'
 gem 'spring'
 end
 

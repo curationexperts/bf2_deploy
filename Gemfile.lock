@@ -83,7 +83,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
-    colorize (0.7.5)
+    colorize (0.7.2)
     deprecation (0.1.0)
       activesupport
     devise (3.4.1)
@@ -212,6 +212,7 @@ DEPENDENCIES
   capistrano-bundler
   capistrano-rails
   coffee-rails (~> 4.0.0)
+  colorize (= 0.7.2)
   devise
   devise-guests (~> 0.3)
   jbuilder (~> 2.0)
