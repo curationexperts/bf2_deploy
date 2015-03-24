@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//  don't require turbolinks
 //
 // Required by Blacklight
 //= require blacklight/blacklight
